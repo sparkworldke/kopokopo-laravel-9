@@ -1,6 +1,6 @@
 {
-    "name": "kopokopo/k2connectphp-sdk",
-    "description": "Kopokopo's php SDK",
+    "name": "sparkworld/laravel-kopokopo-mpesa",
+    "description": "Kopokopo's php SDK - Allow MPESA STK Push ",
     "homepage": "https://github.com/sparkworldke/kopokopo-laravel-9",
     "type": "library",
     "license": "MIT",
