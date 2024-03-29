@@ -11,7 +11,7 @@ You can install the PHP SDK via composer.
 The recommended way to install the SDK is with Composer.
 
 ```
-composer require kopokopo/k2connectphp-sdk
+composer require sparkworld/kopokopoke-laravel
 ```
 
 ## Initialisation
