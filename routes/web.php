@@ -1,8 +1,13 @@
 <?php
 
+use App\Livewire\Frontend\IndexHome;
 use Illuminate\Support\Facades\Route;
 
-Route::view('/', 'welcome');
+Route::name('frontend.')->group(function () {
+    Route::get('/', IndexHome::class)->name('index');
+
+
+});
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
