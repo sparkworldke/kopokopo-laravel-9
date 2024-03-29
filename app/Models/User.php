@@ -45,4 +45,11 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function bookResource(){
+        return $this->HasMany(BookResource::class);
+    }
+    public function resourceApprovals(){
+        return $this->HasMany(ResourceApprovals::class);
+    }
 }

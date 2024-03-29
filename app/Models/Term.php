@@ -11,4 +11,7 @@ class Term extends Model
     use HasFactory, SoftDeletes;
     protected $dates = [ 'deleted_at' ];
     protected $guarded = [];
+    public function bookResource(){
+        return $this->HasMany(BookResource::class);
+    }
 }
