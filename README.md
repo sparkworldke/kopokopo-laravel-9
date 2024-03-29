@@ -5,3 +5,4 @@
 3. Use Chat GPT to create the template and code the website
 4. Add necessary plugins: Breeze for registration, Spatie Multiauth, SEO by Rezipp, Notify, Livewire, Mobile detect, share with social media, Pdf to image, doc to image
 5. Extras: Save keywords from search, Email Marketing plugin, Push notifications, Social proof plugin 
+6. colors: #0A033C; #2892F5;
