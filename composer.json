@@ -24,5 +24,7 @@
             "Kopokopo\\SDK\\Data\\": "src/data",
             "Kopokopo\\SDK\\Tests\\": "tests"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
